@@ -120,8 +120,6 @@ img{
 /* End of Character section */
 
 /*Start of Service Section*/
-#services{
-}
 #services .service{
     flex-direction: column;
     text-align: center;
@@ -276,6 +274,11 @@ img{
 
 /* Start of MobileQuery */
 @media only screen and (max-width: 768px){
+    #character h1{
+        font-size: 2.6rem;
+    }
+    
+
     #services .service-item:nth-child(2){
         background-image: url(./images/u_mobile.jpg);
     }
